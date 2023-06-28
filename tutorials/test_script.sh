@@ -140,3 +140,24 @@
 # ```
 
 # You can modify the AWK command within the script to perform various operations like filtering data, performing calculations, or formatting output based on your specific requirements.
+#----------------------------------------------------------------------------------------------
+
+# Array
+# Declare an array
+fruits=("Apple" "Banana" "Orange" "Mango")
+
+# # Accessing array elements
+# echo "First fruit: ${fruits[0]}"
+# echo "Second fruit: ${fruits[1]}"
+
+# # Modifying array element
+# fruits[2]="Grapes"
+
+# # Looping through array elements
+# echo "All fruits:"
+# for fruit in "${fruits[@]}"; do
+#     echo "$fruit"
+# done
+
+# # Getting the length of the array
+# echo "Number of fruits: ${#fruits[@]}"
