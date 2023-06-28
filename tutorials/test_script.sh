@@ -117,3 +117,26 @@
 # done
 #----------------------------------------------------------------------------------------------
 
+# AWK is a powerful text-processing tool that can be used in shell scripts to manipulate and process structured data. Here's an example of how you can use AWK in a shell script:
+
+# ```bash
+# #!/bin/bash
+
+# # Create a sample input file
+# echo "John 25" > data.txt
+# echo "Alice 30" >> data.txt
+
+# # Use AWK to process the data file
+# awk '{ print "Name: " $1 ", Age: " $2 }' data.txt
+# ```
+
+# In this example, the script creates a sample input file called `data.txt` with two lines of data representing names and ages. Then, AWK is used to process the data file. The AWK command `{ print "Name: " $1 ", Age: " $2 }` specifies the action to be performed on each line. It prints the name and age by concatenating the values of the first and second fields (columns), respectively.
+
+# When you run this script, it will output:
+
+# ```
+# Name: John, Age: 25
+# Name: Alice, Age: 30
+# ```
+
+# You can modify the AWK command within the script to perform various operations like filtering data, performing calculations, or formatting output based on your specific requirements.
