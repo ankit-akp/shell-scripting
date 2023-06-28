@@ -74,4 +74,46 @@
 #----------------------------------------------------------------------------------------------
 
 # For loop
+# for variable in List
+# do 
+#     Task
+# done
+
+# for i in 1 2 3 4 5
+# do
+#     echo $i
+# done
+
+# {1..10}=>[1,2,3,4,5,6,7,8,9,10]
+# for i in {1..10}
+# do
+#     echo $i
+# done
+#----------------------------------------------------------------------------------------------
+
+# In the script, ((num=num+1)) increments the value of the num variable by 1.
+## syntax: ((expression))
+
+# num=22
+# echo $num
+# ((num=num+1))
+# echo $num
+
+# while loop
+# count=0
+# num=10
+# while [ $count -le $num ]
+# do
+#     echo Number is $count
+#     ((count=count+1))
+# done
+#----------------------------------------------------------------------------------------------
+
+# Iterate values from file
+# path="/e/shell_scripting/tutorials/name"
+# for item in $(cat $path)
+# do
+#     echo $item
+# done
+#----------------------------------------------------------------------------------------------
 
