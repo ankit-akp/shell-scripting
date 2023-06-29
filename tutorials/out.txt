@@ -1,0 +1,3 @@
+/e/shell_scripting/tutorials
+/e/shell_scripting/tutorials
+/e/shell_scripting/tutorials
